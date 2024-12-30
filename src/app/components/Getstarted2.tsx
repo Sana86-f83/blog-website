@@ -2,7 +2,7 @@ import React from "react";
 
 const Getstarted2 = () => {
   return (
-      <div className="bg-darkblue w-[1440px] m-auto h-[534px] mt-[100px] ">
+      <div className=" w-full  md:w-[1440px] m-auto  md:h-[534px] mt-[100px] ">
         <div className="w-[1234px] h-[534px] relative mx-auto  ">
           <div className=" absolute ml-[224px] mt-[123px] w-[786px] h-[96px]">
             <h1 className=" w-[786px] h-[96px] text-mywhite text-[52px]  text-center tracking-wide leading-10 font-bold ">

@@ -3,11 +3,11 @@ import Cart from "./Cart";
 
 const CartPage1 = () => {
   return (
-    <div className="w-[1232px] h-[630px] bg-mywhite mx-auto mt-[80px] grid grid-cols-3 gap-3  ">
+    <div className="w-full md:w-[1234px]  mx-auto px-4 md:px-0 h-auto grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 md:mt-[70px]">
       {/* cart-1*/}
 
       <Cart
-    id="1"
+        id="1"
         image="/images/cartpost/cart1.png"
         h2="Travel"
         h4="13 March 2023"
@@ -17,8 +17,7 @@ const CartPage1 = () => {
       />
       {/* cart-2 */}
       <Cart
-          id="2"
-
+        id="2"
         image="/images/cartpost/cart2.png"
         h2="Development"
         h4="11 March 2023"
@@ -30,8 +29,7 @@ const CartPage1 = () => {
       {/* cart-3 */}
 
       <Cart
-          id="3"
-
+        id="3"
         image="/images/cartpost/cart3.png"
         h2="Sports"
         h4="10 March 2023"

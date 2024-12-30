@@ -3,7 +3,7 @@ import Cart from "./Cart";
 
 const Cartpage2 = () => {
   return (
-    <div className="w-[1232px] h-[630px] bg-mywhite mx-auto mt-[63px] grid grid-cols-3 gap-3  ">
+    <div className="w-full px-2 md:px-0 h-auto grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 md:mt-[70px]">
       {/* cart-4*/}
 
       <Cart
@@ -37,8 +37,8 @@ const Cartpage2 = () => {
         para="Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. survival strategies to ensure proactive "
         button="Read More. .."
       />
-      <div className="w-[1232px] h-[630px] bg-mywhite mx-auto mt-[63px] grid grid-cols-3 gap-3  ">
-        {/* cart-7*/}
+    <div className="w-full md:w-[1234px] px-0 md:px-0 h-auto grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 md:mt-[70px]">
+    {/* cart-7*/}
 
         <Cart
           id="7"

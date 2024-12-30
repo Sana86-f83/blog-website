@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import { Metadata } from "next";
+import Image from "next/image";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -22,9 +23,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} antialiased`}>
-        <Navbar />
+      <div className="relative w-full h-auto bg-black md:bg-black/40">
+            {/* Background Image */}
+            <div className="md:block hiddden fixed top-0 left-0 w-full h-full -z-10">
+        <Image
+          src={"/images/home-image/bg-image5.jpg"}
+          alt={"bg-home"}
+          layout="fill"
+          objectFit="cover"
+          className="fixed opacity-60"
+        />
+      </div>
+
+      <Navbar />
         {children}
         <Footer />
+        </div>
       </body>
     </html>
   );

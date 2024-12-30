@@ -1,15 +1,26 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Contact = () => {
   return (
-    <div>
-      <section className="text-black bg-mywhite body-font relative">
-  <div className="container px-5 py-24 mx-auto">
+      <div className=" ">
+            {/* Background Image */}
+            <div className="fixed top-0 left-0 w-full h-full -z-10">
+        <Image
+          src={"/images/home-image/bg-image5.jpg"}
+          alt={"bg-home"}
+          layout="fill"
+          objectFit="cover"
+          className="fixed opacity-60"
+        />
+      </div>
+      <section className="text-mywhite body-font relative ">
+  <div className="container px-5 py-24 mx-auto bg-black/30">
     <div className="flex flex-col text-center w-full mb-12">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-darkblue">
+      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-mywhite">
         Contact Us
       </h1>
-      <p className="lg:w-2/3 mx-auto leading-relaxed text-black/70 text-base">
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-mywhite/70 text-base">
         Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
         gentrify.
       </p>
@@ -18,27 +29,27 @@ const Contact = () => {
       <div className="flex flex-wrap -m-2">
         <div className="p-2 w-1/2">
           <div className="relative">
-            <label htmlFor="name" className="leading-7 text-sm  text-black">
+            <label htmlFor="name" className="leading-7 text-sm  text-mywhite">
               Name
             </label>
             <input
               type="text"
               id="name"
               name="name"
-              className="w-full bg-bgsky bg-opacity-40 rounded border border-darkblue focus:border-lightblue focus:bg-bgsky focus:ring-2 focus:ring-lightblue text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-mywhite  rounded border border-darkblue focus:border-lightblue focus:bg-bgsky focus:ring-2 focus:ring-lightblue text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
         </div>
         <div className="p-2 w-1/2">
           <div className="relative">
-            <label htmlFor="email" className="leading-7 text-sm text-black">
+            <label htmlFor="email" className="leading-7 text-sm text-mywhite">
               Email
             </label>
             <input
               type="email"
               id="email"
               name="email"
-              className="w-full bg-bgsky bg-opacity-40 rounded border border-darkblue focus:border-lightblue focus:bg-bgsky focus:ring-2 focus:ring-lightblue text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-mywhite  rounded border border-darkblue focus:border-lightblue focus:bg-bgsky focus:ring-2 focus:ring-lightblue text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
         </div>
@@ -46,14 +57,14 @@ const Contact = () => {
           <div className="relative">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-black"
+              className="leading-7 text-sm text-mywhite"
             >
               Message
             </label>
             <textarea
               id="message"
               name="message"
-              className="w-full bg-bgsky bg-opacity-40 rounded border border-darkblue focus:border-lightblue focus:bg-bgsky focus:ring-2 focus:ring-lightblue h-32 text-base outline-none text-black py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full bg-mywhite  rounded border border-darkblue focus:border-lightblue focus:bg-bgsky focus:ring-2 focus:ring-lightblue h-32 text-base outline-none text-black py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               defaultValue={""}
             />
           </div>
@@ -63,13 +74,13 @@ const Contact = () => {
             Button
           </button>
         </div>
-        <div className="p-2 w-full pt-8 mt-8 border-t border-darkblue text-center">
+        <div className="p-2 w-full pt-8 mt-8 border-t border-mywhite text-center">
           <a className="text-lightblue font-semibold">sanaUmer@email.com</a>
-          <p className="leading-normal my-5 text-[20px] font-bold text-orange">
+          <p className="leading-normal my-5 text-[20px] font-bold text-mywhite">
             Sana Faisal
           </p>
           <span className="inline-flex">
-            <a className="text-darkblue hover:text-orange">
+            <a className="text-mywhite hover:text-lightblue">
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -81,7 +92,7 @@ const Contact = () => {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
               </svg>
             </a>
-            <a className="ml-4 text-darkblue hover:text-orange">
+            <a className="ml-4 text-mywhite hover:text-lightblue">
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -93,7 +104,7 @@ const Contact = () => {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
               </svg>
             </a>
-            <a className="ml-4 text-darkblue hover:text-orange">
+            <a className="ml-4 text-mywhite hover:text-lightblue">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -107,7 +118,7 @@ const Contact = () => {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
               </svg>
             </a>
-            <a className="ml-4 text-darkblue hover:text-orange">
+            <a className="ml-4 text-mywhite hover:text-lightblue">
               <svg
                 fill="currentColor"
                 strokeLinecap="round"

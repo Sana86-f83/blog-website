@@ -20,23 +20,29 @@ const Cart = ({
   button: string;
 }) => {
   return (
-    <div className="w-[400px]  h-[630px] bg-mywhite">
-      <div className="w-[400px] h-[360px] ">
-        <Image src={image} alt={"cartimages"} width={400} height={360}></Image>
-        <div className="flex mt-[40px]">
-          <p className="w-20px h-[80px] tracking-wide font-bold text-black text-[12px]">
-            {h2}{" "}
+    <div className="w-full sm:w-[400px]  h-auto bg-mywhite shadow-lg  shadow-black">
+      <div className="w-full sm:w-[400px] h-auto  hover:opacity-90 ">
+        <Image
+          src={image}
+          alt={"cartimages"}
+          width={400}
+          height={360}
+          className="w-full h-auto hover:opacity-90 "
+        ></Image>
+        <div className="flex mt-4 ">
+          <p className="tracking-wide font-bold text-black text-[12px] pl-2">
+            {h2}
           </p>
-          <p className="font-bold ml-[9px] text-black/50 text-[12px]">{h4} </p>
+          <p className="font-bold ml-2 text-black/50 text-[12px]">{h4}</p>
         </div>
       </div>
-      <h1 className="w-[400px] text-[24px] mt-[74px] font-bold tracking-tighter leading-8 h-[71px] ">
+      <h1 className="text-[20px] sm:text-[24px] pl-2 mt-6 font-bold tracking-tighter leading-6 sm:leading-8">
         {heading}
       </h1>
-      <p className="w-[376px] h-[72px] text-normal text-[16px] tracking-tight text-myblack/90 mt-[7px]">
+      <p className="text-[14px] pl-2 sm:text-[16px] tracking-tight text-black/90 mt-2">
         {para}
       </p>
-      <button className="w-[104px] h-[27px] text-[14px] font-bold hover:underline hover:underline-offset-2 bg-mywhite rounded-lg text-lightblue hover:text-orange text-center mt-[19px] ">
+      <button className="w-auto px-3 py-2 text-[14px]  font-bold hover:underline hover:underline-offset-2  rounded-lg text-lightblue hover:text-orange text-center mt-4 ">
         <Link
           href={{
             pathname: `/newBlog/${id}`,
@@ -55,7 +61,6 @@ const Cart = ({
           {button}
         </Link>
       </button>
-      
     </div>
   );
 };

@@ -1,20 +1,19 @@
-import React from "react";
 import Cartpage2 from "./Cartpage2";
 
 const PopularPost = () => {
   return (
-    <div className="w-[1440px] h-auto  bg-green-400 relative m-auto mt-[98px] ">
-      <div className="w-[1234px] h-auto absolute   mx-auto ml-[102px]">
+    <div className="w-full  relative m-auto mt-[98px] px-2">
+      <div className="max-w-[1234px] mx-auto">
         {/* popular Heading */}
-        <div className="flex justify-between">
-          <h1 className="text-[48px] text-darkblue font-bold text-myblack ml-[8px]">
+        <div className="flex justify-between items-center">
+          <h1 className="text-[28px] md:text-[48px] font-bold text-mywhite">
             Popular Post
           </h1>
-          <button className="w-[147px] h-[53px] bg-lightblue hover:bg-darkblue  mt-[6px] text-mywhite text-center rounded-lg">
-            View All{" "}
+          <button className="w-[120px] md:w-[147px] h-[40px] md:h-[53px] bg-lightblue hover:bg-mywhite text-mywhite hover:text-darkblue text-center rounded-lg">
+            View All
           </button>
         </div>
-        <Cartpage2 />
+        <Cartpage2/>
       </div>
     </div>
   );
