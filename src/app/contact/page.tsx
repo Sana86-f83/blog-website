@@ -5,7 +5,7 @@ const Contact = () => {
   return (
       <div className=" ">
             {/* Background Image */}
-            <div className="fixed top-0 left-0 w-full h-full -z-10">
+            <div className="md:block hiddden fixed top-0 left-0 w-full h-full -z-10">
         <Image
           src={"/images/home-image/bg-image5.jpg"}
           alt={"bg-home"}
