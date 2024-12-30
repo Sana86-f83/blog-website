@@ -7,7 +7,7 @@ import { TiSocialFacebook, TiSocialLinkedin } from "react-icons/ti";
 
 const Footer = () => {
   return (
-    <div className="w-[1440px] h-[397px]  mt-[0px] md:mt-[50px] m-auto">
+    <div className="w-[1440px] h-[397px]  mt-[0px] md:mt-[50px] m-auto bg-black/60">
       <div className=" w-full md:w-[1234px] px-4 h-auto md:h-[397px] relative mx-auto">
         <div className="w-[80px] h-[80px] rounded-full absolute  mt-[40px] ml-[110px] md:ml-[580px]">
           <Image

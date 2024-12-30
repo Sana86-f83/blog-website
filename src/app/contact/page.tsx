@@ -5,7 +5,7 @@ const Contact = () => {
   return (
       <div className=" ">
             {/* Background Image */}
-            <div className="md:block hiddden fixed top-0 left-0 w-full h-full -z-10">
+            <div className="md:block hidden fixed top-0 left-0 w-full h-auto -z-10">
         <Image
           src={"/images/home-image/bg-image5.jpg"}
           alt={"bg-home"}
@@ -15,7 +15,7 @@ const Contact = () => {
         />
       </div>
       <section className="text-mywhite body-font relative ">
-  <div className="container px-5 py-24 mx-auto bg-black/30">
+  <div className="container px-5 py-24 mx-auto bg-black/10">
     <div className="flex flex-col text-center w-full mb-12">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-mywhite">
         Contact Us

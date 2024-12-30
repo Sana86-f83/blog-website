@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={`${inter.variable} antialiased`}>
       <div className="relative w-full h-auto bg-black md:bg-black/40">
             {/* Background Image */}
-            <div className="md:block hiddden fixed top-0 left-0 w-full h-full -z-10">
+            <div className="md:block hidden fixed top-0 left-0 w-full h-full -z-10">
         <Image
           src={"/images/home-image/bg-image5.jpg"}
           alt={"bg-home"}
