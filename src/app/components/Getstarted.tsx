@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Getstarted = () => {
@@ -15,8 +16,8 @@ const Getstarted = () => {
               className="w-full md:w-[320px] h-[48px] md:h-[56px] pl-4 hover:border-2 hover:border-orange bg-mywhite rounded-lg text-black/50 mb-4 md:mb-0"
             />
             <button className="w-full md:w-[166px] h-[48px] md:h-[56px] md:ml-[8px] border-2 border-mywhite/50 hover:bg-lightblue text-mywhite font-bold bg-transparent rounded-lg">
-              Get Started
-            </button>
+             <Link href={"/"}>Get Started
+             </Link> </button>
           </div>
           <p className="w-full md:w-[555px] text-[14px] md:text-[16px] font-normal mt-6 md:mt-[30px] leading-5 md:leading-6 text-mywhite/60 mx-auto">
             Get a response tomorrow if you submit by 9pm today. If we received

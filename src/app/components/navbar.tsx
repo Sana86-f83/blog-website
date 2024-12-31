@@ -56,7 +56,7 @@ const Navbar = () => {
         <div className="md:hidden flex items-center px-4">
           <button
             onClick={toggleMenu}
-            className="text-[24px] text-lightblue focus:outline-none"
+            className="text-[24px] text-mywhite focus:outline-none"
           >
             <GrMenu className="w-[40px] h-[40px]" />
           </button>

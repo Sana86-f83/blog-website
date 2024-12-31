@@ -27,11 +27,10 @@ export default function RootLayout({
             {/* Background Image */}
             <div className="md:block hidden fixed top-0 left-0 w-full h-full -z-10">
         <Image
-          src={"/images/home-image/bg-image5.jpg"}
+          src={"/images/home-image/homebg.jpg"}
           alt={"bg-home"}
-          layout="fill"
-          objectFit="cover"
-          className="fixed opacity-60"
+          fill
+          className="object-cover fixed opacity-60"
         />
       </div>
 

@@ -19,6 +19,7 @@ const BlogDetails = ({ params }: { params: { id: string } }) => {
     return <div>Post not found</div>;
   }
 
+
   return (
     <div className="w-full md:w-[1234px] bg-black/10 mx-auto mt-20 px-2 sm:px-6 lg:px-8">
       <h1 className="text-3xl sm:text-4xl lg:text-5xl tracking-wide font-bold text-center text-mywhite underline underline-offset-8">
@@ -56,11 +57,44 @@ const BlogDetails = ({ params }: { params: { id: string } }) => {
           <p className="mt-4  text-base sm:text-lg text-mywhite/90">
             {post.p3}
           </p>
-          <button className="mt-6 w-[150px] px-4 py-2 bg-lightblue text-mywhite rounded hover:bg-mywhite hover:text-darkblue">
-            <Link href={`/newBlog/${id}`}>{post.btn2}</Link>
-          </button>
+          <p className="mt-4  text-base sm:text-lg text-orange">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+            nam expedita autem impedit cumque architecto accusantium doloribus
+            deserunt assumenda aperiam aliquam ullam ipsa illum harum quae
+            laboriosam praesentium minus aut!
+          </p>
         </div>
       </div>
+      <p className="md:flex hidden w-full mt-4  text-base sm:text-lg text-mywhite/90">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi commodi
+        incidunt ad architecto dolore est mollitia, eaque fuga, quo quis
+        molestiae officiis inventore alias! Quidem placeat ipsum dolorum,
+        veritatis atque deserunt facere. Officiis culpa possimus consequuntur.
+        Enim nemo nostrum assumenda beatae autem repudiandae. In explicabo eum
+        porro vitae cumque? Similique, animi. Doloremque provident dolorem
+        repudiandae quaerat ab enim quod, autem minima nisi sit iste, veniam aut
+        recusandae minus eveniet ut nostrum. Dolores suscipit excepturi possimus
+        laboriosam est iure, perspiciatis rem doloremque consectetur. Ut,
+        cumque! Molestiae sint laudantium consequatur consectetur odio itaque
+        ratione beatae iure, alias pariatur eveniet, quas veniam a!
+      </p>
+      <br />
+      <p className="md:flex hidden w-full mt-4  text-base sm:text-lg text-mywhite/90">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi commodi
+        incidunt ad architecto dolore est mollitia, eaque fuga, quo quis
+        molestiae officiis inventore alias! Quidem placeat ipsum dolorum,
+        veritatis atque deserunt facere. Officiis culpa possimus consequuntur.
+        Enim nemo nostrum assumenda beatae autem repudiandae. In explicabo eum
+        porro vitae cumque? Similique, animi. Doloremque provident dolorem
+        repudiandae quaerat ab enim quod, autem minima nisi sit iste, veniam aut
+        recusandae minus eveniet ut nostrum. Dolores suscipit excepturi possimus
+        laboriosam est iure, perspiciatis rem doloremque consectetur. Ut,
+        cumque! Molestiae sint laudantium consequatur consectetur odio itaque
+        ratione beatae iure, alias pariatur eveniet, quas veniam a!
+      </p>
+      <button className="mt-6 w-[150px] px-4 py-2 bg-lightblue text-mywhite rounded hover:bg-mywhite hover:text-darkblue">
+        <Link href={`/newBlog/${id}`}>{post.btn2}</Link>
+      </button>
 
       {/* Other Components */}
       <div className="mt-10">
