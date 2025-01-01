@@ -4,7 +4,7 @@ import React from "react";
 
 const RecentPost = () => {
   return (
-    <div className="w-full max-w-[1440px] h-auto md:h-[650px] relative mx-auto  px-4 lg:px-0">
+    <div className="w-full max-w-[1440px] h-auto md:h-[570px] relative mx-auto  px-4 lg:px-0">
       <div className="w-full max-w-[1234px] h-auto relative mx-auto">
         {/* left-container */}
         <div className="flex flex-col lg:flex-row justify-between items-center ">
@@ -21,7 +21,7 @@ const RecentPost = () => {
             alt={"ourRecentPost"}
             width={712}
             height={456}
-            className="w-full h-auto  rounded-l-full"
+            className="w-full h-auto rounded-r-none md:rounded-r-full"
           />
         </div>
       </div>
