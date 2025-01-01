@@ -3,8 +3,8 @@ import React from "react";
 
 const Getstarted = () => {
   return (
-    <div className="bg-transparent w-full md:w-[1440px] h-auto md:h-[534px] mt-[50px] md:mt-[100px] mx-auto">
-      <div className="w-full md:w-[1234px] bg-black/20 h-[534px] md:px-0 px-4 md:py-[0px] py-[10px] mb-[0px] relative  mx-auto">
+    <div className="bg-transparent w-full md:w-[1440px]  h-auto md:h-[534px] mt-[50px] md:mt-[100px] mx-auto">
+      <div className="w-full md:w-[1234px] bg-black/20 h-[400px] md:h-[534px] md:px-0 px-4 md:py-[0px] py-[10px] mb-[0px] relative  mx-auto">
         <div className="absolute ml-[0px]  md:ml-[244px] mt-[30px] md:mt-[123px] w-[90%] md:w-[786px] h-auto text-center">
           <h1 className="w-full text-mywhite text-[28px] md:text-[52px] tracking-wide leading-tight md:leading-10 font-bold">
             Get our stories delivered from us to your inbox weekly.

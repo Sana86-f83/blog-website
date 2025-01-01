@@ -3,7 +3,7 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="w-[1440px] h-[796px] m-auto ">
+    <div className="w-[1440px]  h-[700px] m-auto ">
       <div className="md:w-[1234px] w-full h-auto md:h-[576px] absolute text-mywhite  mx-auto mt-[50px] md:mt-[122px] ml-[30px] md:ml-[102px]">
         <div className="w-full h-auto md:w-[580px] md:h-[474px] mt-[14px]  absolute ">
           <h4 className="font-bold text-[16px] leading-6 tracking-wide ml-[3px]">
@@ -24,13 +24,13 @@ const HomePage = () => {
           </button>
         </div>
         {/* rightside-imagediv */}
-        <div className="md:w-[608px] md:h-[476px] w-[260px] h-[257px] md:mt-[0px] mt-[450px] px-2 md:ml-[626px] ">
+        <div className="md:w-[608px]  md:h-[376px] w-[280px] h-[157px] md:mt-[80px] mt-[450px]  md:ml-[626px] ">
           <Image
             src={"/images/home-image/imageAIHome.png"}
             alt={"home-AI-Image"}
             width={608}
-            height={476}
-            className="absolute md:w-[608px] md:h-[476px] w-[260px] h-[257px] rounded-3xl"
+            height={376}
+            className="absolute md:w-[608px] md:h-[376px] w-[280px] h-[157px] rounded-3xl"
           ></Image>
         </div>
       </div>
